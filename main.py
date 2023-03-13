@@ -9,8 +9,9 @@ char2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 char3 = '!@#$%^&*()/?.,1234567890'
 
 
-a = 8
-num=1
+num =int(input('amount of passwords to generate: '))
+a= int(input('your password length: '))
+
 
 print("Which type of password do you want??\n1.Only small aphabets\n2.Capitalized alphabets\n3.Only special characters plus Numericals\n4.Password with all characters\n")
 choice = int(input())
